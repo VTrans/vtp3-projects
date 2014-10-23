@@ -9,13 +9,10 @@ The resulting view was a combination of:
   - ArtemisActivities from warehouse
   - vw_map_Projects from datamart
 
-This view now sits on GDB Asset as VPINS_Projects.  To process this data a python script was used to complete the following:
+This view now sits on GDB Asset as VPINS_Projects.  ProjectLocations.PY processes the data:
 
 1. Move the view into a SDE table
 2. add field to add location type
-
-WORKING------------
-
 3. create a table for LRM segment begin
 4. create a table for LRM segment end
 5. join beg and end to get segments in ETE
@@ -26,4 +23,8 @@ WORKING------------
 10. join the table to the full points
 11. join the table to the full segments
 
-Its going to be awesome when it is done...
+##Changes
+
+-End to end values have been added to the view to simplify the processing
+-Added project contact information to warehouse view
+
