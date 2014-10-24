@@ -7,4 +7,4 @@ vtp3-projects
 
 
 The projects map is here:
-http://vtrans.maps.arcgis.com/home/webmap/viewer.html?webmap=2fa7f23d9bcd4571aabd5191db032905
+http://vtrans.maps.arcgis.com/apps/webappviewer/index.html?id=3767e8d53973469f859b825612b0bb75
